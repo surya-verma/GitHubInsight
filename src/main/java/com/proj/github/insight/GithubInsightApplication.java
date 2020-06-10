@@ -7,6 +7,15 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import javax.annotation.PostConstruct;
 import java.util.TimeZone;
 
+/**
+*
+* GithubInsightApplication
+*
+* @author  Surya Verma
+* @version 1.0
+* @since   2020-06-08
+*/
+
 @SpringBootApplication
 @EntityScan(basePackageClasses = {
 		GithubInsightApplication.class,
